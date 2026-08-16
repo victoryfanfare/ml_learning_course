@@ -1,0 +1,36 @@
+# секреты - самое важное в этом файле
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# окружения
+.venv/
+venv/
+env/
+.python-version.local
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# данные и артефакты
+data/*
+!data/.gitkeep
+*.csv
+*.parquet
+*.db
+*.sqlite3
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# агент: локальные настройки и логи не шарим, общие правила - шарим
+.claude/settings.local.json
